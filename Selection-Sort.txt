@@ -1,0 +1,27 @@
+Selection Sort
+
+İlk Liste ->[22,27,16,2,18,6] -> Üzerinden geçiliyor
+
+Örnek Alt Adımlar-> İlk önce en küçük sayıyı bulmaya çalışıyoruz.
+[22,27,16,2,18,6]
+ -- -- 22 ve 27 karşılaştırıldı 22 küçük olduğu için o seçildi
+
+[22,27,16,2,18,6]
+ --    -- 22 ve 16 karşılaştırıldı 16 küçük olduğu için o seçildi
+
+[22,27,16,2,18,6]
+       -- -  16 ve 2 karşılaştırıldı 2 küçük olduğu için o seçildi
+
+[22,27,16,2,18,6]
+          - -- 2 ve 18 karşılaştırıldı 2 küçük olduğu için o seçildi
+
+[22,27,16,2,18,6]
+          -    - 2 ve 6 karşılaştırıldı 2 küçük olduğu için o seçildi ve ilk haneye yazıldı.
+
+1. Adım -> [2,27,16,22,18,6]
+2. Adım -> [2,6,16,22,18,27]
+3. Adım -> [2,6,16,22,18,27] -> Dokunmuyoruz
+4. Adım -> [2,6,16,18,22,27] -> son iki elemanın üzerinden geçilmesi kaldı
+5. Adım -> [2,6,16,18,22,27] ve sıralama tamamlandı.
+
+
